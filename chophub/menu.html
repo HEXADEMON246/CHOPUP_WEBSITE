@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Our Menu — ChopHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <main class="page-main">
+        <section class="page-intro"><span class="eyebrow">MADE FRESH, JUST FOR YOU</span>
+            <h1>What's good? <em>Everything.</em></h1>
+            <p>Big cravings deserve big flavour. Find your next favourite below.</p>
+        </section>
+        <div class="menu-toolbar">
+            <div class="filters" id="filters"></div><label class="search-box"><span>⌕</span><input id="search"
+                    type="search" placeholder="Find something tasty..."></label>
+        </div>
+        <div class="product-grid menu-grid" id="menu-products"></div>
+        <p class="empty-state" id="empty" hidden>No dishes found. Try another search or category.</p>
+    </main>
+    <div id="footer"></div>
+    <script src="products.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
